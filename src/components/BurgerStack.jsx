@@ -8,6 +8,7 @@ const BurgerStack = (props) => {
             
             {
                 props.stacks.length == "undefined" ? (
+                    
                     <ul className="chosenIndgredients" >
                     <div style={{backgroundColor: props.stacks.color}}>
                         {props.stacks.name}
